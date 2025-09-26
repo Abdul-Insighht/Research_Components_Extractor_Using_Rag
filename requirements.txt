@@ -1,0 +1,74 @@
+# Environment
+python-dotenv
+
+# LangChain core + ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-google-genai
+
+# Vector stores (optional but common)
+faiss-cpu
+chromadb
+
+# API requests
+requests
+
+# Data handling
+pandas
+numpy
+
+# Streamlit UI
+streamlit
+
+
+
+pypdf
+
+
+fastapi
+uvicorn[standard]
+httpx
+
+
+
+
+
+# Core FastAPI and web framework
+fastapi
+uvicorn[standard]
+python-multipart
+jinja2
+
+# PDF processing
+pypdf
+
+# LangChain and Google Gemini AI
+langchain
+langchain-core
+langchain-google-genai
+google-generativeai
+
+# HTTP requests and utilities
+requests
+httpx
+
+# Environment variables
+python-dotenv
+
+# Data processing
+pydantic
+typing-extensions
+
+# File handling
+pathlib
+
+# Async support
+asyncio-compat
+
+# JSON handling
+orjson
+
+# Security and validation
+email-validator
