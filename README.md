@@ -1,129 +1,87 @@
-# Research Components Extractor using RAG
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Research_Components_Extractor_Using_Rag&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
 
-This project implements a **Research Components Extractor** using a **Retrieval-Augmented Generation (RAG)** approach. It extracts and summarizes key components of research papers such as **Abstract, Introduction, Methodology, Dataset, Architecture, Contributions, and Limitations**.
+# Research_Components_Extractor_Using_Rag
 
----
-
-## 🚀 Features
-- Extracts structured components from research papers  
-- Uses **RAG** (Retrieval-Augmented Generation) for better accuracy  
-- Handles PDF and text-based research documents  
-- Outputs summaries for each section  
-- Configurable through environment variables  
+Automated research paper component extraction system using RAG for identifying key sections, methodologies and findings.
 
 ---
 
-## 📂 Project Structure
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
+
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
+
+---
+
+## ðŸ› ï¸ Tech Stack
+
 ```
-Research_Components_Extractor_Using_Rag/
-│── main.py                # Main entry point
-│── requirements.txt       # Python dependencies
-│── .env                   # Environment variables (API keys, configs)
-│── my_project_env/        # Local virtual environment (not required)
+Python, LangChain, RAG, FAISS, Streamlit
 ```
 
 ---
 
-## ⚙️ Installation
+## ðŸš€ Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone <repo_url>
-   cd Research_Components_Extractor_Using_Rag
-   ```
+1. **Clone the repository**
+```bash
+git clone https://github.com/Abdul-Insighht/Research_Components_Extractor_Using_Rag.git
+cd Research_Components_Extractor_Using_Rag
+```
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # For Linux/Mac
-   venv\Scripts\activate      # For Windows
-   ```
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Configure environment variables:  
-   Create a `.env` file and add required keys:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   VECTOR_DB_PATH=./vector_store
-   ```
-
----
-
-## ▶️ Usage
-Run the extractor:
+3. **Run the project**
 ```bash
 python main.py
 ```
 
-You will be prompted to provide the path of a research paper (PDF/text), and the system will output extracted components.
+---
+
+## â­ Quick Links
+
+â­ [Star this repo](https://github.com/Abdul-Insighht/Research_Components_Extractor_Using_Rag) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/Research_Components_Extractor_Using_Rag/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/Research_Components_Extractor_Using_Rag/issues)
 
 ---
 
-## 🛠️ Tech Stack
-- **Python 3.10+**
-- **LangChain** (for RAG pipeline)  
-- **OpenAI / HuggingFace models** (for LLMs)  
-- **FAISS / Chroma** (for vector storage)  
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
 
 ---
 
-## 📊 Example Output
-For a given research paper, the tool extracts:
+## ðŸ‘¤ Author
 
-- **Abstract** → Concise summary of the paper  
-- **Introduction** → Research problem and motivation  
-- **Methodology** → Techniques and approaches used  
-- **Dataset** → Details of datasets used  
-- **Architecture** → Model or system design  
-- **Contributions** → Key findings of the work  
-- **Limitations** → Weaknesses and constraints  
+<table>
+<tr>
+<td>
 
----
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
 
-## ⚠️ Limitations
-- Depends on the quality of PDF/text extraction  
-- Requires API access (OpenAI or HuggingFace models)  
-- May miss information if paper structure is irregular  
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
 
----
-
-## 🤝 Contribution
-Feel free to fork this project and submit pull requests for:
-- New extraction modules  
-- Additional dataset support  
-- Better UI integration  
+</td>
+</tr>
+</table>
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License.
+## ðŸ“„ License
 
-
----
-
-## 📬 Contact
-
-**Hafiz Abdul Rehman**
-
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
+This project is licensed under the **MIT License**.
 
 ---
 
-## 🌟 Show Your Support
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
 
-If you find this project helpful, please consider:
-
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
-
----
-
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
